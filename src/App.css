@@ -3,6 +3,7 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  padding: 0 50px
 }
 .wrapper {
   text-align: center;

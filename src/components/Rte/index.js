@@ -6,7 +6,7 @@ function RteTextEditor() {
     const onChange =(value)=>{
      setValue(value)
     }
-    
+    console.log(value);
   return (
     <div className='wrapper'>
         <h1>RTE</h1>

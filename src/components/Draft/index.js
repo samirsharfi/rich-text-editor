@@ -19,6 +19,7 @@ class DraftTextEditor extends React.Component {
 
     _handleKeyCommand(command, editorState) {
       const newState = RichUtils.handleKeyCommand(editorState, command);
+      console.log(newState)
       if (newState) {
         this.onChange(newState);
         return true;
@@ -72,6 +73,7 @@ class DraftTextEditor extends React.Component {
         }
       }
 
+      console.log(editorState);
       return (
         <div className="RichEditor-root">
           <BlockStyleControls

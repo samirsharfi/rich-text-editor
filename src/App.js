@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import DraftTextEditor from './components/Draft';
-import Rte from './components/Rte';
+
 import Quill from './components/Quill';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <h1>Draft</h1>
     <DraftTextEditor />
-    <Rte/>
+   
     <Quill/>
     </div>
   );
